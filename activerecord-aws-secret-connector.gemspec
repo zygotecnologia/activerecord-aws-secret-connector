@@ -1,13 +1,13 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'activerecord/aws_secret_connector/version'
+require 'active_record/aws_secret_connector/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'activerecord-aws-secret-connector'
   spec.version       = ActiveRecord::AwsSecretConnector::VERSION
-  spec.authors       = ['João Paulo Lethier']
-  spec.email         = ['jplethier@gmail.com']
+  spec.authors       = ["João Paulo Lethier"]
+  spec.email         = ["joaopaulo.lethier@zygotecnologia.com"]
   spec.description   = %q{Adds ability to active record connect to database using aws secret to store database connection informations}
   spec.summary       = %q{Adds ability to active record connect to database using aws secret to store database connection informations}
   spec.homepage      = 'https://github.com/zygotecnologia/activerecord-aws-secret-connector'

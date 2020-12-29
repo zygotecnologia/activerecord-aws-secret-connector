@@ -55,6 +55,9 @@ production:
   cache_expires_in: 360
 ```
 
+**IMPORTANT**
+When using cache to store the connection and save requests to aws secret, it is really important to be sure that no one can access your cache storage from outside the application, to not expose your database connection informations to outside world.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/zygotecnologia/activerecord-aws-secret-connector.
