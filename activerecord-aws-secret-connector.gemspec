@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'aws-sdk-secretsmanager', '~> 1.43.0'
+  spec.add_dependency 'activerecord', '~> 6.0.0'
 
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake'
